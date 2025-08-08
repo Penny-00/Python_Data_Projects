@@ -56,7 +56,7 @@ Each Jupyter notebook for this project aimed at investigating specific aspects o
 
 To identify the most in-demand skills for the top three data roles, I first filtered the dataset to find the most popular job titles. Then, I extracted the top five skills associated with each of these roles. This analysis reveals which skills are most relevant based on the specific data role I'm aiming for.
 
-View my notebook with detailed steps here: [2_Skills_Count.ipynb](3_Project\2_Skills_Count.ipynb)
+View my notebook with detailed steps here: [2_Skills_Count.ipynb](3_Project/2_Skills_Count.ipynb)
 
 ### Visualize Data
 ```python
@@ -89,7 +89,7 @@ plt.show()
 
 To find how skills are trending in 2023 for Data Analysts, I filtered data analyst positions and grouped the skills by the month of the job postings. This got me the top 5 skills of data analysts by month, showing how popular skills were throughout 2023.
 
-View my notebook with detailed steps here: [3_Skills_Trend.ipynb](3_Project\3_Skills_Trend.ipynb)
+View my notebook with detailed steps here: [3_Skills_Trend.ipynb](3_Project/3_Skills_Trend.ipynb)
 ### Visualize Data
 
 ```python
@@ -121,7 +121,7 @@ plt.show()
 ## 3. How well do jobs and skills pay for Data Analysts?
 To identify the highest-paying roles and skills, I only got jobs in the United States and looked at their median salary. But first I looked at the salary distributions of common data jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs are paid the most.
 
-View my notebook with detailed steps here: [4_Salary_Analysis.ipynb](3_Project\4_Salary_Analysis.ipynb)
+View my notebook with detailed steps here: [4_Salary_Analysis.ipynb](3_Project/4_Salary_Analysis.ipynb)
 
 #### Visualize Data
 
@@ -175,7 +175,7 @@ Here's the breakdown of the highest-paid & most in-demand skills for data analys
  ## 4. What are the most optimal skills to learn for Data Analysts?
 To identify the most optimal skills to learn ( the ones that are the highest paid and highest in demand) I calculated the percent of skill demand and the median salary of these skills. To easily identify which are the most optimal skills to learn.
 
-View my notebook with detailed steps here: [5_Optimal_Skills.ipynb](3_Project\5_Optimal_Skills.ipynb)
+View my notebook with detailed steps here: [5_Optimal_Skills.ipynb](3_Project/5_Optimal_Skills.ipynb)
 #### Visualize Data
 ```python
 from adjustText import adjust_text
